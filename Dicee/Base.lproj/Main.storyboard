@@ -29,20 +29,20 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="Y5w-HD-so6">
                                 <rect key="frame" x="215" y="273.5" width="120" height="120"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="6za-EG-Mg3">
+                                <rect key="frame" x="67" y="60" width="241" height="148.5"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRh-Q7-cxE" userLabel="UIButtonRollButton">
-                                <rect key="frame" x="148" y="506" width="79" height="54"/>
-                                <color key="backgroundColor" red="0.60610026120000005" green="0.1058413908" blue="0.1231305078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="40" y="506" width="295" height="54"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="36"/>
                                 <state key="normal" title="Roll">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.60681951050000005" green="0.10822732" blue="0.1229740605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NTg-UU-kno"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="6za-EG-Mg3">
-                                <rect key="frame" x="67" y="60" width="241" height="148.5"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -55,7 +55,7 @@
                             <constraint firstItem="6za-EG-Mg3" firstAttribute="centerX" secondItem="uRh-Q7-cxE" secondAttribute="centerX" id="D1s-X8-zXc"/>
                             <constraint firstAttribute="trailing" secondItem="uO1-1t-abA" secondAttribute="trailing" id="IxX-Gy-WTh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uRh-Q7-cxE" secondAttribute="bottom" constant="107" id="Jpx-AY-Gng"/>
-                            <constraint firstItem="uRh-Q7-cxE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="148" id="LGN-Co-lVL"/>
+                            <constraint firstItem="uRh-Q7-cxE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="LGN-Co-lVL"/>
                             <constraint firstItem="6za-EG-Mg3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="MrC-e8-hPN"/>
                             <constraint firstItem="Y5w-HD-so6" firstAttribute="top" secondItem="91X-AA-hg7" secondAttribute="top" id="OCH-BT-NIO"/>
                             <constraint firstItem="uO1-1t-abA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Pg9-eU-W2a"/>
