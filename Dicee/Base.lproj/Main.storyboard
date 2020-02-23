@@ -29,7 +29,7 @@
                                 <rect key="frame" x="215" y="346" width="120" height="120"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="6za-EG-Mg3">
-                                <rect key="frame" x="67" y="104" width="241.00000000000006" height="177"/>
+                                <rect key="frame" x="67" y="104" width="241" height="177"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRh-Q7-cxE" userLabel="UIButtonRollButton">
                                 <rect key="frame" x="40" y="617" width="295" height="54"/>

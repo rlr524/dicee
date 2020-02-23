@@ -45,9 +45,9 @@ class ViewController: UIViewController {
     }
     
     func updateDiceImages() {
-
-        randomDiceIndexLeft = Int(arc4random_uniform(6))
-        randomDiceIndexRight = Int(arc4random_uniform(6))
+        
+        randomDiceIndexLeft = Int.random(in: 0...5)
+        randomDiceIndexRight = Int.random(in: 0...5)
 
         diceImageViewLeft.image = UIImage(named: diceArray[randomDiceIndexLeft])
         diceImageViewRight.image = UIImage(named: diceArray[randomDiceIndexRight])
